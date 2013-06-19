@@ -119,6 +119,7 @@ superfun {
     I:Crossbar=14033
     I:"Excavator Head"=14045
     I:"Frypan Head"=14035
+    I:"Full Guard"=14047
     I:"Hammer Head"=14046
     I:"Hoe Head"=14029
     I:"Knife Blade"=14038
@@ -149,6 +150,7 @@ tools {
     I:Broadsword=14055
     I:Chisel=14066
     I:Cleaver=14068
+    I:Cutlass=14072
     I:Dagger=14065
     I:Excavator=14069
     I:"Frying Pan"=14058
