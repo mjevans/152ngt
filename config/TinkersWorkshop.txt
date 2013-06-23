@@ -5,6 +5,7 @@
 ####################
 
 block {
+    I:Aggregator=3221
     I:Barricade=1469
     I:"Held Item Block"=1472
     I:Landmine=1470
@@ -13,6 +14,7 @@ block {
     I:"Liquid Metal Still"=1480
     I:"Metal Storage"=1478
     I:"Multi Brick"=1481
+    I:"Multi Brick Fancy"=1467
     I:"Ore Berry One"=1485
     I:"Ore Berry Two"=1486
     I:"Ores Gravel"=1488
@@ -32,6 +34,8 @@ block {
 ####################
 
 "difficulty changes" {
+    B:"Craft metals with Wood Patterns"=false
+    B:"Craft vanilla metal blocks"=true
     B:"Enable mod bone tools"=true
     B:"Enable mod cactus tools"=true
     B:"Enable mod stone tools"=true
@@ -87,6 +91,7 @@ general {
 "patterns and misc" {
     I:"Blank Patterns"=14019
     I:Buckets=14101
+    I:"Golden Head"=14113
     I:"Jeweled Apple"=14107
     I:Materials=14020
     I:"Metal Pattern"=14024
@@ -166,6 +171,21 @@ tools {
     I:Scythe=14067
     I:Shortbow=14063
     I:Shovel=14052
+}
+
+
+####################
+# ultra hardcore changes
+####################
+
+"ultra hardcore changes" {
+    B:"Add Patterns to Pattern Chests"=false
+    B:"Add World Border"=false
+    B:"Change Crafting Recipes"=false
+    B:"Change Ghast drops to Gold Ingots"=false
+    B:"Passive Health Regen"=true
+    B:"Players drop heads on death"=false
+    I:"World Border Radius"=1000
 }
 
 
